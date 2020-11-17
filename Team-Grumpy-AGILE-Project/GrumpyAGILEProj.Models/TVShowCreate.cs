@@ -1,16 +1,15 @@
-﻿using System;
+﻿using GrumpyAGILEProj.Data;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GrumpyAGILEProj.Data
+namespace GrumpyAGILEProj.Models
 {
-    public class TVShow
+    public class TVShowCreate
     {
-        [Key]
-        public int ShowId { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]
@@ -23,19 +22,6 @@ namespace GrumpyAGILEProj.Data
         public double AverageEpisodeLength { get; set; }
         public double TotalEpisodes { get; set; }
         public double TotalSeasons { get; set; }
-        public int Rating { get; set; }
-    }
 
-    public enum TVMaturityRating
-    {
-        TV_Y = 1,
-        TV_Y7,
-        TV_Y7_FV,
-        TV_G,
-        TV_PG,
-        TV_14,
-        TV_MA
     }
-
-    
 }
