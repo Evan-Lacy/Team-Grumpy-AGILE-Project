@@ -207,6 +207,7 @@
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MovieController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -306,6 +307,16 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrumpyAGILEProj.Models\GrumpyAGILEProj.Models.csproj">
+      <Project>{4A42896F-85CD-4FD7-86C4-F6A05857C351}</Project>
+      <Name>GrumpyAGILEProj.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrumpyAGILEProj.Services\GrumpyAGILEProj.Services.csproj">
+      <Project>{75363F05-275A-4C5F-BDE2-2CA4838A87A2}</Project>
+      <Name>GrumpyAGILEProj.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

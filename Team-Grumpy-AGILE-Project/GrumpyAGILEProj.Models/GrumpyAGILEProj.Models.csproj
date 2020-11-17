@@ -54,11 +54,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MovieCreate.cs" />
+    <Compile Include="MovieDetail.cs" />
+    <Compile Include="MovieListItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrumpyAGILEProj.Data\GrumpyAGILEProj.Data.csproj">
+      <Project>{413523C8-0DF4-4AF5-81C4-B2DCBA7CF546}</Project>
+      <Name>GrumpyAGILEProj.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
