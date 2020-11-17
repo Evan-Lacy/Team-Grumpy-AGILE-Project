@@ -22,7 +22,7 @@ namespace GrumpyAGILEProj.Data
         [Required]
         public MaturityRating MaturityRating { get; set; }
 
-
+        public int? Rating { get; set; }
     }
 
     public enum Genre
