@@ -84,8 +84,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Documentary.cs" />
     <Compile Include="IdentityModels.cs" />
+    <Compile Include="Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TVShow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
