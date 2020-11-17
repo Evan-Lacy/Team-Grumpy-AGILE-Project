@@ -55,10 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TVShowService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrumpyAGILEProj.Data\GrumpyAGILEProj.Data.csproj">
+      <Project>{413523C8-0DF4-4AF5-81C4-B2DCBA7CF546}</Project>
+      <Name>GrumpyAGILEProj.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrumpyAGILEProj.Models\GrumpyAGILEProj.Models.csproj">
+      <Project>{4A42896F-85CD-4FD7-86C4-F6A05857C351}</Project>
+      <Name>GrumpyAGILEProj.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
