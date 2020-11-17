@@ -10,7 +10,7 @@ namespace GrumpyAGILEProj.Data
     public class TVShow
     {
         [Key]
-        public int Id { get; set; }
+        public int ShowId { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]
@@ -23,6 +23,7 @@ namespace GrumpyAGILEProj.Data
         public double AverageEpisodeLength { get; set; }
         public double TotalEpisodes { get; set; }
         public double TotalSeasons { get; set; }
+        public int Rating { get; set; }
     }
 
     public enum TVMaturityRating

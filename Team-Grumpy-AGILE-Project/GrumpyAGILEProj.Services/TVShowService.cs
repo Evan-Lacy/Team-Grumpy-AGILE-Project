@@ -42,7 +42,7 @@ namespace GrumpyAGILEProj.Services
                             e =>
                                 new TVShowListItem
                                 {
-                                    TVShowId = e.TVShowId,
+                                    ShowId = e.ShowId,
                                     Title = e.Title,
                                     Rating = e.Rating
                                 }
@@ -62,7 +62,7 @@ namespace GrumpyAGILEProj.Services
                 return
                     new TVShowDetail
                     {
-                        ShowId = entity.ShowID,
+                        ShowId = entity.ShowId,
                         Title = entity.Title,
                         Rating = entity.Rating,
                         Description = entity.Description,
